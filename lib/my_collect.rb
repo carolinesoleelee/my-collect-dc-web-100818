@@ -11,6 +11,6 @@ end
 
 my_collect(['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']) do |student|
   if student.start_with?("T")
-    "Hi, #{student}"
+    "#{student}"
   end
 end
