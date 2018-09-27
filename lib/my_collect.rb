@@ -7,3 +7,10 @@ def my_collect(array)
   end
   array
 end
+
+
+my_collect(['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']) do |student|
+  if student.start_with?("T")
+    puts "Hi, #{student}"
+  end
+end
